@@ -1,0 +1,44 @@
+html {
+  font-size: 62.5%;
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #aabeee;
+}
+
+.page-container {
+  margin-top: -15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: calc(100vw - 60px);
+}
+
+.graph-container-wrapper {
+  height: calc(100vh - 250px);
+  width: calc(100vw - 60px);
+  min-width: 880px;
+  min-height: 490px;
+}
+
+.graph-container {
+  background-color: #ffffff;
+  margin-top: 20px;
+  height: 100%;
+}
+
+.canvas-scrollbar::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.canvas-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.canvas-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #4571da;
+}
